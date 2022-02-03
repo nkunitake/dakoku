@@ -1,0 +1,219 @@
+/* 共通 */
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+.main-wrapper{
+    max-width: 480px;
+    margin: auto;
+}
+
+.title{
+    background-color: #00c2cc;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 0 0;
+}
+
+
+/* indx.php */
+.item {
+  color: #00c2cc;
+  text-align: center;
+  border-top: solid 2px #00c2cc;
+  border-bottom: solid 2px #00c2cc;
+  background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  margin: 20px 30px 0px 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.workstyle-wrapper{
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    height: 100px;
+}
+
+.title-wrapper{
+    width: 30%;
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+}
+
+.btn-wrapper{
+    width: 70%;
+        display: flex;
+          margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  /* background: repeating-linear-gradient(45deg, #ffffff, #ffffff 3px, #e7e7e7 3px, #e7e7e7 30px); */
+  border-color:transparent;
+  color: #333;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  position: relative;
+  margin: 30px 10px 20px;
+}
+
+.btn span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  transition-duration: 0.2s;
+}
+.btn:hover span {
+  left: 0px;
+  top: -1px;
+}
+
+.btn-toread {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  background: #7d7d7d;
+  border: 1px solid #7d7d7d;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 0 45px 0 25px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+  text-align: left;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+.btn-toread:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: 0;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  margin-top: -6px;
+}
+.btn-toread:hover {
+  background: #fff;
+  color: #7d7d7d;
+}
+.btn-toread:hover:before {
+  border-top: 2px solid #7d7d7d;
+  border-right: 2px solid #7d7d7d;
+}
+
+
+/* read.php */
+.btn-toindex-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-toindex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  background: #7d7d7d;
+  border: 1px solid #7d7d7d;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 0 45px 0 25px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 1.3;
+  text-align: left;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  margin: 20px 0;
+}
+.btn-toindex:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: 0;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  margin-top: -6px;
+}
+.btn-toindex:hover {
+  background: #fff;
+  color: #7d7d7d;
+}
+.btn-toindex:hover:before {
+  border-top: 2px solid #7d7d7d;
+  border-right: 2px solid #7d7d7d;
+}
+
+
+#fav-table th {
+    background-color:#fd6767;
+    color: white;
+    text-align: center;
+}
+
+/* table {
+  border-collapse: separate;
+  margin: 0 auto;
+  padding: 0;
+      max-width: 480px;
+} */
+/* table tr {
+  background-color: #fff;
+  border-bottom: 2px solid #fff;
+}
+table tr:nth-child(even){
+  background-color: #eee;
+}
+table th,
+table td {
+  padding: 10px 30px;
+  text-align: center;
+}
+table thead th {
+    font-size: 15px;
+    padding: 10px 30px;
+}
+
+table thead tr{
+  background-color: #fd6767;
+  color:#fff;
+} */
